@@ -31,14 +31,8 @@ h1 .ln:last-child{color:transparent;-webkit-text-stroke:2px var(--gold)}
 .cue::before{content:"";width:46px;height:1px;background:var(--gold);transform-origin:left;animation:ln 2s ease-in-out infinite}
 @keyframes ln{50%{transform:scaleX(.2)}}
 .bz{justify-content:flex-start}.bz.r{justify-content:flex-end}
-.{width:min(470px,100%);padding:32px;border-radius:22px;background:rgba(10,14,20,.62);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid color-mix(in srgb,var(--c) 45%,transparent);box-shadow:0 0 60px -20px var(--c);will-change:transform}
-.panel h2{
-  font:800 clamp(1.4rem,3vw,2rem)/1.1 Syne,sans-serif;
-  letter-spacing:-.02em;
-  color:var(--c);
-  margin-bottom:.7rem;
-  overflow-wrap:anywhere; /* safety net: a long word breaks instead of leaving the card */
-}
+.panel{width:min(470px,100%);padding:32px;border-radius:22px;background:rgba(10,14,20,.62);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid color-mix(in srgb,var(--c) 45%,transparent);box-shadow:0 0 60px -20px var(--c);will-change:transform}
+.panel h2{font:800 clamp(1.4rem,3vw,2rem)/1.1 Syne,sans-serif;letter-spacing:-.02em;color:var(--c);margin-bottom:.7rem;overflow-wrap:anywhere}
 .panel p{color:#c9d2de;margin-bottom:1.2rem}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:1.6rem}
 .tags i{font-style:normal;font-size:.85rem;padding:.25em .8em;border-radius:99px;background:color-mix(in srgb,var(--c) 16%,transparent);color:var(--ink)}
